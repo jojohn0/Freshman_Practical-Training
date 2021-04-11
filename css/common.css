@@ -1,0 +1,270 @@
+body{
+    background-color: #eeeeee;
+}
+
+.w{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+}
+
+.nav{
+    background-color: #191919;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+
+.nav .logo img{
+    float: left;
+    margin-left: 60px;
+    width: 80px;
+    height: 80px;
+}
+
+.nav ul{
+    float: left;
+}
+
+.nav ul li{
+    float: left;
+    margin-right: 12px;
+    line-height: 80px;
+}
+
+.nav ul li a{
+    color: hsla(0,0%,100%,.5);
+}
+
+.nav ul li a:hover{
+    color: #fff;
+}
+
+.nav .nav_left{
+    margin-left: 300px;
+}
+
+.nav .nav_left li{
+    width: 72px;
+    height: 80px;
+}
+
+.nav .nav_left li a{
+    text-align: center;
+    font-size: 16px;
+    display: block;
+    width: 72px;
+    height: 80px;
+}
+
+.nav .nav_left li:nth-child(1) a{
+    background-color: #353535;
+    color: #fff;
+}
+
+.nav .nav_center{
+    border: 1px solid hsla(0,0%,100%,.1);
+    border-radius: 20px;
+    margin-left: 350px;
+    margin-top: 20px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+
+.nav .nav_center li{
+    float: left;
+    width: 102px;
+    height: 36px;
+    line-height: 36px;
+    vertical-align: middle;
+}
+
+.nav .nav_center li:nth-child(1){
+    background-color: #303030;
+}
+
+.nav .nav_center li a{
+    text-align: center;
+    display: block;
+    width: 102px;
+    height: 36px;
+    font-size: 14px;
+}
+
+.download{
+    display: inline-block;
+    width: 102px;
+    height: 36px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 80px;
+    color: hsla(0,0%,100%,.5);
+    border: 1px solid hsla(0,0%,100%,.1);
+    line-height: 36px;
+    margin-top: 20px;
+    margin-left: 80px;
+    padding-left: 10px;
+    padding-right: 12px;
+}
+
+.download:hover{
+    color: #000;
+    background-color: #ffc800;
+}
+
+.login{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    color:  hsla(0,0%,100%,.5);
+    font-size: 14px;
+    margin-left: 25px;
+}
+
+.login:hover{
+    color: #fff;
+}
+
+/* header end */
+
+/* footer start */
+footer{
+    background-color:rgb(25, 25, 25);
+    height: 178px;
+    padding:56px 0;
+    padding-left: 300px;
+    color: rgba(255, 255, 255, .4);
+}
+
+.footer_hd{
+    height: 100px;
+}
+
+.footer_hd .footer_download{
+    margin-right: 200px;
+}
+
+
+.footer_hd .footer_download a{
+    margin-top: -20px;
+    margin-left: 120px;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    border-radius: 999px;
+    border: 1px solid #aaa;
+    color: rgba(255, 255, 255, .4);
+}
+
+.footer_hd .footer_download a:hover{
+    color: rgba(255, 255, 255, .9);
+}
+
+.footer_hd .footer_download a p{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+
+.footer_hd .footer_download a img{
+    margin-top: 10px;
+}
+
+.footer_hd .footer_offcial a{
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-top: -20px;
+    margin-left: 80px;
+    border-radius: 999px;
+    border: 1px solid #aaa;
+    color: rgba(255, 255, 255, .4);
+}
+
+.footer_hd .footer_offcial a:hover{
+    color: rgba(255, 255, 255, .9);
+}
+
+.footer_hd .footer_offcial a img{
+    margin-top: 10px;
+}
+
+.footer_hd .footer_offcial a p{
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.footer_hd .footer_offcial .icon1{
+    text-align: center;
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-left:90px;
+    border-radius: 999px;
+    border: 1px solid #aaa;
+}
+
+.footer_hd .footer_offcial .icon2{
+    text-align: center;
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin-left:20px;
+    border-radius: 999px;
+    border: 1px solid #aaa;
+}
+
+.footer_hd .footer_link{
+    margin-left: 200px;
+}
+
+.footer_link .footer_link_detail{
+    margin-top: -23px;
+    margin-left: 65px;
+    width: 177px;
+    height: 60px;
+}
+
+.footer_link_detail a{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .4);
+    display: block;
+    height: 30px;
+    line-height: 30px;    
+    margin-left: 30px;
+}
+
+.footer_link_detail a:hover{
+    color: rgba(255, 255, 255, .9);
+}
+
+.footer_bm p{
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.footer_bm p a{
+    margin: 0 5px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, .4);
+}
+
+
+.footer_bm p a:hover{
+    color: rgba(255, 255, 255, .9);
+}
+
+.footer_bm .copy_right,.footer_bm .tecent{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-left: -200px;
+}
+
+/* footer end */
